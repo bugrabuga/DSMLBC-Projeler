@@ -141,4 +141,3 @@ df["Customer ID"].nunique()
 rfm[rfm["Segment"]=="Cant_Loose"].groupby(["RFM_Score"]).agg({"Recency":"mean","Frequency":"mean","Monetary":"mean"})
 
 rfm[rfm["Segment"]=="Loyal_Customers"].groupby(["RFM_Score"]).agg({"Recency":"mean","Frequency":"mean","Monetary":"mean"})
-
